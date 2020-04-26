@@ -21,7 +21,7 @@
 	}
 	, "scripts": {
 		"pegjs": "node_modules/.bin/pegjs -o src/main/js/GeneratedParser.js src/main/pegjs/SdpParser.pegjs"
-		, "test": "npm run pegjs & jasmine"
+		, "test": "npm run pegjs && jasmine"
 		, "prepare": "npm run pegjs"
 	}
 }
