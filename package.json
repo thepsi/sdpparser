@@ -20,7 +20,7 @@
 		, "jasmine": ">=2.3.1"
 	}
 	, "scripts": {
-		"pegjs": "node_modules/.bin/pegjs -o src/main/js/SdpParser.js src/main/pegjs/SdpParser.pegjs"
+		"pegjs": "node_modules/.bin/pegjs -o src/main/js/GeneratedParser.js src/main/pegjs/SdpParser.pegjs"
 		, "test": "npm run pegjs & jasmine"
 		, "prepare": "npm run pegjs"
 	}
