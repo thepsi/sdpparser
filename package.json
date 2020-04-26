@@ -1,27 +1,27 @@
 {
-	"name": "sdpparser"
-	, "version": "0.0.6"
-	, "description": "SdpParser - JavaScript parser for SDP (RFC 4566)"
-	, "author": {
+	"name": "sdpparser",
+	"version": "0.0.6",
+	"description": "SdpParser - JavaScript parser for SDP (RFC 4566)",
+	"author": {
 		"name": "Adrian Ber",
 		"email": "beradrian@yahoo.com"
-	}
-	, "license": "MIT"
-	, "repository" : {
-		"type" : "git"
-		, "url" : "https://github.com/beradrian/sdpparser.git"
-	}
-	, "main": "src/main/js/SdpParser.js"
-	, "dependencies": {
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beradrian/sdpparser.git"
+	},
+	"main": "src/main/js/SdpParser.js",
+	"dependencies": {
 		"jscommon": "beradrian/jscommon"
-	}
-	, "devDependencies" : {
-		"pegjs": "latest"
-		, "jasmine": ">=2.3.1"
-	}
-	, "scripts": {
-		"pegjs": "node_modules/.bin/pegjs -o src/main/js/GeneratedParser.js src/main/pegjs/SdpParser.pegjs"
-		, "test": "npm run pegjs && jasmine"
-		, "prepare": "npm run pegjs"
+	},
+	"devDependencies": {
+		"pegjs": "latest",
+		"jasmine": ">=2.3.1"
+	},
+	"scripts": {
+		"pegjs": "node_modules/.bin/pegjs -o src/main/js/GeneratedParser.js src/main/pegjs/SdpParser.pegjs",
+		"test": "npm run pegjs && jasmine",
+		"prepare": "npm run pegjs"
 	}
 }
