@@ -3,6 +3,6 @@ var utils = require("./utils");
 
 module.exports = {
   SyntaxError: generated.SyntaxError,
-	parse: generated.parse,
-	format: utils.formatSdp,
+  parse: generated.parse,
+  format: utils.formatSdp,
 };
